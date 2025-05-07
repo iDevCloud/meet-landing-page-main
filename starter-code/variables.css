@@ -1,0 +1,26 @@
+:root {
+
+    --cyan-600:#4D96A9;
+    --cyan-300:#8FE3F9;
+    --purple-600:#855FB1;
+    --purple-300: #D9B8FF;
+    --slate-900:#28283D;
+    --slate-600: #87879D;
+    --slate-300:#D1D1DF;
+    --white: #FAFAFA;
+
+
+
+    --spacing-1400: 7rem;
+    --spacing-1000: 5rem;
+    --spacing-900: 4.5rem;
+    --spacing-800: 4rem;
+    --spacing-700: 3.5rem;
+    --spacing-600: 3rem;
+    --spacing-500: 2.5rem;
+    --spacing-400: 2rem;
+    --spacing-300: 1.5rem;
+    --spacing-200: 1rem;
+    --spacing-100: 0.5rem;
+    --spacing-50: 0.25rem; 
+}

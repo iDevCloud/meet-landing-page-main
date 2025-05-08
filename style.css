@@ -35,6 +35,10 @@ h3 {
     color: var(--cyan-600);
 }
 
+p {
+    color: var(--slate-600);
+}
+
 button {
 
     /*button configuration*/
@@ -109,7 +113,7 @@ img {
 .banner {
     width: 100%;
     height: 10rem;
-    background-image: url('assets/tablet/image-hero.png');
+    background-image: url('./assets/tablet/image-hero.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -148,7 +152,7 @@ img {
     margin-top: 6.5rem;
     padding: var(--spacing-800) var(--spacing-400);
     background-color: var(--cyan-600);
-    background-image: url(/starter-code/assets/mobile/image-footer.jpg);
+    background-image: url(./assets/mobile/image-footer.jpg);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
     background-size: cover;
@@ -241,7 +245,7 @@ img {
     }
 
     .banner {
-        background-image: url(/starter-code/assets/tablet/image-hero.png);
+        background-image: url(./assets/tablet/image-hero.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 18.94rem;
@@ -269,6 +273,21 @@ img {
         display: none;
     }
 
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
+
     .hero {
         display: flex;
         flex-direction: row;
@@ -285,7 +304,7 @@ img {
         display: inline-block;
         width: 394px;
         height: 303px;
-        background-image: url(/starter-code/assets/desktop/image-hero-left.png);
+        background-image: url(./assets/desktop/image-hero-left.png);
         background-size: cover;
         background-position: left;
         margin-right: 5.99rem;
@@ -296,7 +315,7 @@ img {
         display: inline-block;
         width: 394px;
         height: 303px;
-        background-image: url(/starter-code/assets/desktop/image-hero-right.png);
+        background-image: url(./assets/desktop/image-hero-right.png);
         background-size: cover;
         background-position: right;
         margin-left: 5.99rem;
